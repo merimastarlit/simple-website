@@ -1,5 +1,5 @@
 env:
-  repo:         "https://github.com/merimastarlit/simple-website-gar-push.git"
+  repo:         "https://github.com/merimastarlit/simple-website.git"
   project_id:   "totemic-atrium-418415"
   repo_region:  "us-central1"
   app_name:     "simple-website"
@@ -38,7 +38,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Clone a repo
         run: |
-          git clone https://github.com/merimastarlit/simple-website-gar-push.git
+          git clone https://github.com/merimastarlit/simple-website.git
 
       # Runs a set of commands using the runners shell
       - name: Switch Branches
